@@ -1,0 +1,1648 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A website that enables users to read and write blogs.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font-awesome/css/all.min.css">
+    <title>Express</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="body-container">
+            <header class="header-container">
+                <div class="header-log-in">
+                    <h3><a href="log-in.html">Log in</a></h3>
+                    <h3><a href="create-account.html">Create Account</a></h3>
+                </div>
+
+                <h1>Express</h1>
+
+                <nav class="nav-menu">
+                    <ul class="nav-ul">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="blog.html">Blogs</a></li>
+                        <li><a href="post.html">Posts</a></li>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="log-in.html">Log in</a></li>
+                        <li><a href="create-account.html">Create Account</a></li>
+                    </ul>
+                </nav>
+
+                <button type="button" onclick="toggle()"><i class="fas fa-bars"></i></button>
+                <side class="menu-content">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="blog.html">Blogs</a></li>
+                        <li><a href="post.html">Posts</a></li>
+                        <li><a href="about-us.html">About Us</a></li>
+                    </ul>
+                </side>
+            </header>
+            <main>
+                <div class="posts-container">
+                    <h1>Posts.</h1>
+                    <div class="posts-sub-container">
+                        <div class="technology">
+                            <h2>Technology.</h2>
+                            <div class="sub-technology">
+                                <div class="technology1">
+                                    <h3>Technology One</h3>
+                                    <img src="images/unsplash-code.jpg" alt="Code">
+                                    <p>
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                    </p>
+                                    <button onclick="visible()">Read More...</button>
+                                    <p class="more">
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                    </p>
+                                </div>
+                                <div class="technology2">
+                                    <h3>Technology Two</h3>
+                                    <img src="images/unsplash-eatsleepcode.jpg" alt="Code">
+                                    <p>
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                    </p>
+                                    <button onclick="visible()">Read More...</button>
+                                    <p class="more">
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                    </p>
+                                </div>
+                                <div class="technology3">
+                                    <h3>Technology Three</h3>
+                                    <img src="images/code.jpg" alt="Code">
+                                    <p>
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                    </p>
+                                    <button onclick="visible()">Read More...</button>
+                                    <p class="more">
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lifestyle">
+                            <h2>lifestyle and Culture.</h2>
+                            <div class="sub-lifestyle">
+                                <div class="lifestyle1">
+                                    <h3>Lifestyle and Culture One</h3>
+                                    <img src="images/unsplash-livingbliss.jpg" alt="A lifestyle photo">
+                                    <p>
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                    </p>
+                                    <button onclick="visible()">Read More...</button>
+                                    <p class="more">
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                    </p>
+                                </div>
+                                <div class="lifestyle2">
+                                    <h3>Lifestyle and Culture Two</h3>
+                                    <img src="images/unsplash-faith.jpg" alt="A lifestyle photo">
+                                    <p>
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                    </p>
+                                    <button onclick="visible()">Read More...</button>
+                                    <p class="more">
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                    </p>
+                                </div>
+                                <div class="lifestyle3">
+                                    <h3>Lifestyle and Culture Three</h3>
+                                    <img src="images/unsplash-passion.jpg" alt="A lifestyle photo">
+                                    <p>
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                    </p>
+                                    <button onclick="visible()">Read More...</button>
+                                    <p class="more">
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="music">
+                            <h2>Music and Dance.</h2>
+                            <div class="sub-music">
+                                <div class="music1">
+                                    <h3>Music and Dance One</h3>
+                                    <img src="images/unsplash-musica.jpg" alt="Music">
+                                    <p>
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                    </p>
+                                    <button onclick="visible()">Read More...</button>
+                                    <p class="more">
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                    </p>
+                                </div>
+                                <div class="music2">
+                                    <h3>Music and Dance Two</h3>
+                                    <img src="images/unsplash-mic.jpg" alt="Music">
+                                    <p>
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                    </p>
+                                    <button onclick="visible()">Read More...</button>
+                                    <p class="more">
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                    </p>
+                                </div>
+                                <div class="music3">
+                                    <h3>Music and Dance Three</h3>
+                                    <img src="images/unsplash-passion.jpg" alt="Music">
+                                    <p>
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                    </p>
+                                    <button onclick="visible()">Read More...</button>
+                                    <p class="more">
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fitness">
+                            <h2>Fitness and Health</h2>
+                            <div class="sub-fitness">
+                                <div class="fitness1">
+                                    <h3>Fitness and Health One</h3>
+                                    <img src="images/unsplash-jog.jpg" alt="A lifestyle photo">
+                                    <p>
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                    </p>
+                                    <button onclick="visible()">Read More...</button>
+                                    <p class="more">
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                    </p>
+                                </div>
+                                <div class="fitness2">
+                                    <h3>Fitness and Health Two</h3>
+                                    <img src="images/unsplash-meditate.jpg" alt="A lifestyle photo">
+                                    <p>
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                    </p>
+                                    <button onclick="visible()">Read More...</button>
+                                    <p class="more">
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                    </p>
+                                </div>
+                                <div class="fitness3">
+                                    <h3>Fitness and Health Three</h3>
+                                    <img src="images/unsplash-yoga.jpg" alt="A lifestyle photo">
+                                    <p>
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                    </p>
+                                    <button onclick="visible()">Read More...</button>
+                                    <p class="more">
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="maths">
+                            <h2>Mathematics and Science</h2>
+                            <div class="sub-maths">
+                                <div class="maths1">
+                                    <h3>Mathematics and Science One</h3>
+                                    <img src="images/unsplash-cityroads.jpg" alt="A lifestyle photo">
+                                    <p>
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                    </p>
+                                    <button onclick="visible()">Read More...</button>
+                                    <p class="more">
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                    </p>
+                                </div>
+                                <div class="maths2">
+                                    <h3>Mathematics and Science Two</h3>
+                                    <img src="images/unsplash-city.jpg" alt="A lifestyle photo">
+                                    <p>
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                    </p>
+                                    <button onclick="visible()">Read More...</button>
+                                    <p class="more">
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut
+                                        labore
+                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco
+                                        laboris
+                                        nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate
+                                        velit
+                                        esse
+                                        cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit
+                                        anim
+                                        id
+                                        est laborum."
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+    <footer class="footer-container">
+        <h1>Express</h1>
+        <p class="express-info">Write and be heard.<br>Express yourself</p>
+        <section class="footer-content">
+            <div class="explore">
+                <p>Explore</p>
+                <h3><a href="index.html">Home</a></h3>
+                <h3><a href="blog.html">Blog</a></h3>
+                <h3><a href="post.htl">Posts</a></h3>
+                <h3><a href="about-us.html">About Us</a></h3>
+                <h3><a href="subscribe.html" class="sub">Subcribe</a></h3>
+            </div>
+            <div class="subscribe-btn">
+                <p>To Subcribe</p>
+                <h3>Enter your email:</h3>
+                <form action="main.php" method="GET">
+                    <input class="sub-textspace" type="text" placeholder="johndoe@gmail.com">
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <div class="explore">
+                <p>Legal Policy</p>
+                <h3><a href="terms.html">Terms of Service</a></h3>
+                <h3><a href="private.html">Private Policy</a></h3>
+            </div>
+        </section>
+        <p class="contact-info">Contact Us:<br>
+            Phone No: 0778486792,<br>
+            Email: express@gmail.com<br>
+        </p>
+        <p class="copyright-info">Copyright:2020 Express. All rights reserved</p>
+        <p class="sm-links-info">Follow and Share</p>
+        <div class="sm-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-snapchat-ghost"></i></a>
+        </div>
+    </footer>
+</body>
+<script src="express.js"></script>
+
+</html>

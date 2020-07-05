@@ -16,3 +16,19 @@ function toggle() {
         visibilityStatus = false;
     }
 }
+let visibilityStatus2 = false;
+
+function visible() {
+
+    let more = document.querySelector(".more");
+
+    if (visibilityStatus2 === false) {
+        more.style.display = "inline-block";
+
+        visibilityStatus2 = true;
+    } else {
+        more.style.display = "none";
+
+        visibilityStatus2 = false;
+    }
+}
